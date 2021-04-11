@@ -1,0 +1,71 @@
+/* resetear algunos estilos*/
+
+* {
+    margin: 8px;
+    padding: 3px;
+}
+
+ /* estilizar de manera general algunos elementos*/
+body {
+  font-family: 'Dela Gothic One', cursive;
+  background-color: rgb(134, 134, 231);
+  text-align: center;
+    
+} 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+font-family: 'Cabin', sans-serif;
+}
+
+
+h1{
+
+}
+p {
+font-size: 20px;
+color: rgb(14, 53, 92);
+text-align:center;
+}
+a {
+text-decoration: none;
+color: rgb(131, 72, 72);
+padding: 5px;
+}
+a:hover
+{
+  text-decoration: underline;  
+}
+ol,
+ul {
+list-style: none;
+}
+/* estilos personalizados*/
+.lista-numerada
+{
+  list-style: decimal;
+  list-style-position: inside;
+}
+.menu {
+  display: flex;
+}
+.menu li {
+background-color:rgb(177, 138, 214) ;
+padding: 5px;
+cursor: pointer;
+text-align: center;
+}
+.menu li:hover {
+background-color: rgb(241, 166, 181);
+font-weight: bold;
+}
+.imangen-proyecto-vida {
+  width: 300 px;
+}
+.imagen-test-personalida {
+  width: 200px;
+}
